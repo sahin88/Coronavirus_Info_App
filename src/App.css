@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-color: azure;
+
+}
+.heading {
+  color:#fff;
+  font-size:2rem;
+}
+
+.container {
+  margin :2rem;
+  text-align: center;
+  font-size: 0.8rem;
+
+  
+
+}
+
+
+.sub_container{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 66vh;
+  
+
+}
+.dropDown {
+  padding:1em;
+  width: 95%;
+  font-size: 1.5em;
+}
+.sub_class {
+  border-radius: 15px;
+  box-shadow: 0 2px 4px ;
+  margin :1rem;
+  
+}
+
+.confirmed {
+  background-color:  #fcb4c7 ;
+  color:  #ff0145;
+  padding: .4rem;
+  border: 1px solid #ff0145;
+
+  
+}
+
+.recovered {
+  background-color : #d5f5e3;
+  color :  #186a3b;
+  padding: .2rem;
+  border: 1px solid #186a3b;
+
+
+
+}
+
+.death {
+  background-color: #ccc;
+  padding: .2rem;
+  border: 1px solid black;
+
+}
+
+
+@media screen and (max-width:1114px) {
+
+.sub_container{
+  flex-wrap: wrap;
+
+}
+
+.sub_class {
+  width: 100%;
+}
+
+
+
+}
+
